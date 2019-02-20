@@ -1,0 +1,45 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "ad3036a888d14380adaab874525d90d2",
+    "Name": "Card",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "d7e45d7d8ab8429db22befc65f8d8cd6",
+        "Name": "Context",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "c3250863462d4c858cc6f507aff2c4af",
+        "Name": "Choices",
+        "FieldType": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "22d7fc699b564d0a85e128b4192587c0",
+        "Name": "Season",
+        "FieldType": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "cc730057e2fe455483bd628aeeb99142",
+        "Name": "Value",
+        "FieldType": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" }
+    }
+}]

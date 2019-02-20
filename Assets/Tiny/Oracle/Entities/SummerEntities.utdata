@@ -1,0 +1,484 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "9058a840bb6d4b7e8e3c7591574b2eb5",
+    "Name": "SummerEntities",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "2fe8110cef9a4b639f0990bf20f5a07a", "Name": "Summer - A" },
+        { "$TypeId": 9, "Id": "9f3c72480fbb4908a9fae0f0e0badeb6", "Name": "Summer - 2" },
+        { "$TypeId": 9, "Id": "c84125c859da4d4aad1d94fa1c67c136", "Name": "Summer - 3" },
+        { "$TypeId": 9, "Id": "01d3c2d1ea2740db8ba579a41d76710e", "Name": "Summer - 4" },
+        { "$TypeId": 9, "Id": "6d9a489c50b04d9aaa2bcfd8f9307cd5", "Name": "Summer - 5" },
+        { "$TypeId": 9, "Id": "4d4486a2b05d46feae0ce1a273120003", "Name": "Summer - 6" },
+        { "$TypeId": 9, "Id": "2b6e7c18a38b46719cb772cf10423746", "Name": "Summer - 7" },
+        { "$TypeId": 9, "Id": "f7dcb23233db4bd991e29c4287e4630d", "Name": "Summer - 8" },
+        { "$TypeId": 9, "Id": "35d861c83e3d4043ae8a16442b11301a", "Name": "Summer - 9" },
+        { "$TypeId": 9, "Id": "fe409f857b624e67963bdeae6aa71f7d", "Name": "Summer - 10" },
+        { "$TypeId": 9, "Id": "634a4e8c14834a8880f55ca2890deba7", "Name": "Summer - J" },
+        { "$TypeId": 9, "Id": "ec9d4e5a714a4eeb916ef7e4c330c362", "Name": "Summer - Q" },
+        { "$TypeId": 9, "Id": "21ad261c10734ff7912c6d20dd332451", "Name": "Summer - K" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "2fe8110cef9a4b639f0990bf20f5a07a",
+    "Name": "Summer - A",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "One of the smaller monsters begins to build something\r\nthat will “bring the humans back.” What is it? How does\r\nthe community react?",
+                    "One of the larger monsters begins to consume smaller\r\nmonsters. Why? How does the community react?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "9f3c72480fbb4908a9fae0f0e0badeb6",
+    "Name": "Summer - 2",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A wave of paranoia sweeps through the community. Agree\r\non Something about the severity and necessity of a Taboo.",
+                    "Someone takes their fascination with a Taboo too far.\r\nWho is it? How does the community react?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "b0a99cc1aa0e4226ad7c0e3d2ed6b14d",
+                "Name": "Two",
+                "Value": 2
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "c84125c859da4d4aad1d94fa1c67c136",
+    "Name": "Summer - 3",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Someone begins to address an urgent need, no matter the\r\ncost. Start a project that will alienate some monsters in\r\nthe community.",
+                    "Someone demands that a constitution be written. What\r\nrules do they propose that anger the community?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "13e8e2aac368457ca1e4cbd74d61b8f5",
+                "Name": "Three",
+                "Value": 3
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "01d3c2d1ea2740db8ba579a41d76710e",
+    "Name": "Summer - 4",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A young monster lashes out at the community. Who is it?\r\nWho does the community blame for their anger?",
+                    "A monster who lived before the occupation claims that\r\nthe new community is immoral. Start a Project that\r\nreflects their fundamentalist call."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "34a2170ccc124dd6b89d55ae478a5e2e",
+                "Name": "Four",
+                "Value": 4
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "6d9a489c50b04d9aaa2bcfd8f9307cd5",
+    "Name": "Summer - 5",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" },
+        "Properties": {}
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Attempts to finish a project end in squabble and anger.\r\nRemove a project die from the map.\r\nThat project has failed.",
+                    "A monster is found dead outside the settlement.\r\nNo one has confessed to the crime.\r\nAgree on Something about who is guilty."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "dc52a1e46c4e4bcf9f0bbc035946a745",
+                "Name": "Five",
+                "Value": 5
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "4d4486a2b05d46feae0ce1a273120003",
+    "Name": "Summer - 6",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A project finishes early. Say how it resolved. Who proved\r\nthemselves most valuable in its early completion?",
+                    "A charismatic monster harnesses the excitement and\r\ngoodwill of the community. Start a new project."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "a5f45d1c3d934d6b8e42d6d16c531cc9",
+                "Name": "Six",
+                "Value": 6
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "2b6e7c18a38b46719cb772cf10423746",
+    "Name": "Summer - 7",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A monster speaks up about grievances from before the\r\noccupation. Agree On Something about the old conflicts\r\nof this community.",
+                    "One of the monsters threatens or alarms another. What\r\nprovoked them, in the most immediate sense?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "7d07ba85270141c399c4594fedf0d6e0",
+                "Name": "Seven",
+                "Value": 7
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "f7dcb23233db4bd991e29c4287e4630d",
+    "Name": "Summer - 8",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "In a moment of need, a charismatic monster reveals\r\nresources previously withheld. What problem do they\r\nresolve?",
+                    "An unpopular monster is discovered to be withholding\r\nresources from the community. Are they punished?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "df750ad082504b0ca70800b54e847d11",
+                "Name": "Eight",
+                "Value": 8
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "35d861c83e3d4043ae8a16442b11301a",
+    "Name": "Summer - 9",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Trusting in human technology gets somebody injured or\r\nembarrassed. How? Remove an Adoption.",
+                    "An elder admonishes some of the other monsters\r\nabout an unseemly behavior. What does the elder say?\r\nAdd a new Taboo."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "2bfc4dd4a6d540008f6383fbfc940992",
+                "Name": "Nine",
+                "Value": 9
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "fe409f857b624e67963bdeae6aa71f7d",
+    "Name": "Summer - 10",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Conflict flares up among community members, and as a\r\nresult, a project fails.",
+                    "Introduce a dark mystery among the members of the\r\ncommunity. Who discovers it?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "a5824d55628342d4be9f3f27ece8dea3",
+                "Name": "Ten",
+                "Value": 10
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "634a4e8c14834a8880f55ca2890deba7",
+    "Name": "Summer - J",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Someone sabotages a project, and the project fails as a\r\nresult. Who did this? Are they caught?",
+                    "Someone is caught trying to sabotage the efforts of the\r\ncommunity. How does the community respond?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "c44cf81958aa40f0be8d212a67705f85",
+                "Name": "Jack",
+                "Value": 11
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "ec9d4e5a714a4eeb916ef7e4c330c362",
+    "Name": "Summer - Q",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Summer is fleeting. Discard the top two cards off the top of the deck and take two actions this week."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "7d7bfeef809a48e3ac8f77923f41bf0e",
+                "Name": "Queen",
+                "Value": 12
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "21ad261c10734ff7912c6d20dd332451",
+    "Name": "Summer - K",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Context": "Hot summer days lead to anger and paranoia among the monsters. Choose one:",
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Community leaders spend the week silencing dissent. This week ends immediately.",
+                    "The community leaps into frenzied action. Start a dangerous Project."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "8efafc7066024e21bb4b5f1cf5397c5c",
+                "Name": "Summer",
+                "Value": 1
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "dd92d7dde819400bad6c1c0057b748c0",
+                "Name": "King",
+                "Value": 13
+            }
+        }
+    }]
+}]

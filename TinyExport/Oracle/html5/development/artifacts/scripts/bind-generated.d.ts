@@ -78,23 +78,41 @@ declare namespace ut {
 }
 declare var UT_ASSETS: Object;
 declare namespace game{
-    class SeasonComponent extends ut.Component {
+    class Card extends ut.Component {
         constructor();
-        NewField: Season;
+        Context: string;
+        Choices: string[];
+        Season: Season;
+        Value: FaceValue;
         static readonly cid: number;
         static readonly _view: any;
         static readonly _isSharedComp: boolean;
         static _size: number;
-        static _fromPtr(p: number, v?: SeasonComponent): SeasonComponent;
-        static _toPtr(p: number, v: SeasonComponent): void;
-        static _tempHeapPtr(v: SeasonComponent): number;
-        static _dtorFn(v: SeasonComponent): void;
+        static _fromPtr(p: number, v?: Card): Card;
+        static _toPtr(p: number, v: Card): void;
+        static _tempHeapPtr(v: Card): number;
+        static _dtorFn(v: Card): void;
+    }
+    enum FaceValue {
+        Ace = 0,
+        Two = 1,
+        Three = 2,
+        Four = 3,
+        Five = 4,
+        Six = 5,
+        Seven = 6,
+        Eight = 7,
+        Nine = 8,
+        Ten = 9,
+        Jack = 10,
+        Queen = 11,
+        King = 12,
     }
     enum Season {
-        Winter = 0,
-        Spring = 1,
-        Summer = 2,
-        Fall = 3,
+        Spring = 0,
+        Summer = 1,
+        Autumn = 2,
+        Winter = 3,
     }
 }
 declare namespace ut{
@@ -233,7 +251,11 @@ declare namespace ut{
         [module: string]: any;
         game: {
             [data: string]: EntityGroupData;
-            NewEntityGroup: EntityGroupData;
+            SpringEntities: EntityGroupData;
+            SummerEntities: EntityGroupData;
+            AutumnEntities: EntityGroupData;
+            WinterEntities: EntityGroupData;
+            Bootloader: EntityGroupData;
         }
     }
 }

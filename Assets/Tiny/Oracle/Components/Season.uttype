@@ -8,14 +8,6 @@
     "TypeCode": "Enum",
     "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
     "Fields": [{
-        "Id": "34979a5077f645378005bd8caa3c86ba",
-        "Name": "Winter",
-        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
-        "Array": false,
-        "Visibility": 0,
-        "EditorOnly": false,
-        "Versioned": true
-    }, {
         "Id": "e4977edc30a84169b042ab36b6976ba6",
         "Name": "Spring",
         "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
@@ -33,7 +25,15 @@
         "Versioned": true
     }, {
         "Id": "b3b6edecb32043159e29b14ebae945b0",
-        "Name": "Fall",
+        "Name": "Autumn",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "34979a5077f645378005bd8caa3c86ba",
+        "Name": "Winter",
         "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
         "Array": false,
         "Visibility": 0,
@@ -43,9 +43,10 @@
     "DefaultValue": {
         "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
         "Properties": {
-            "Spring": 1,
-            "Summer": 2,
-            "Fall": 3
+            "Spring": 0,
+            "Summer": 1,
+            "Autumn": 2,
+            "Winter": 3
         }
     }
 }]

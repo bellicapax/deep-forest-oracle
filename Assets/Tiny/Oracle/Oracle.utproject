@@ -60,7 +60,7 @@
         { "Id": "ce3f1bd7050540b70d450a606e226ea2", "Name": "UTiny.Shared" },
         { "Id": "3006a305f33c48ab9a06f97d15952df3", "Name": "Main" }
     ],
-    "StartupEntityGroup": { "Id": "d8e513e5440b4f88a8273ed224c2f51e", "Name": "NewEntityGroup" }
+    "StartupEntityGroup": { "Id": "7517ac2368b0430a963fd038316fcf7c", "Name": "Bootloader" }
 },
 {
     "$TypeId": 5,

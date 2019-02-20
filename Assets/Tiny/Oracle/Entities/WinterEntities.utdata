@@ -1,0 +1,483 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "bbd053d531524c1eb923320abc3c2cac",
+    "Name": "WinterEntities",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "0c21e358ec024407a8a0622d538ab320", "Name": "Winter - A" },
+        { "$TypeId": 9, "Id": "93546c75cc9049ac962fb80fec4e540e", "Name": "Winter - 2" },
+        { "$TypeId": 9, "Id": "5ba6528e82dd42eea231f455b722f993", "Name": "Winter - 3" },
+        { "$TypeId": 9, "Id": "421f04137b754984933c4745f4060615", "Name": "Winter - 4" },
+        { "$TypeId": 9, "Id": "b6c89a8fe1a349e69ae2c2e1c8803edf", "Name": "Winter - 5" },
+        { "$TypeId": 9, "Id": "81062c6b9d914e53a20521b728aea9de", "Name": "Winter - 6" },
+        { "$TypeId": 9, "Id": "ba8a1624f32e4481927e72a4a923d087", "Name": "Winter - 7" },
+        { "$TypeId": 9, "Id": "5ab3017054df477a8d2dc5f24f58c95e", "Name": "Winter - 8" },
+        { "$TypeId": 9, "Id": "b4528a911ef54625b21b4c8d7e771cdc", "Name": "Winter - 9" },
+        { "$TypeId": 9, "Id": "e7d6570cac684937b7088a98502463b6", "Name": "Winter - 10" },
+        { "$TypeId": 9, "Id": "7ceda7037b2f4b11a70b0e6d586f3804", "Name": "Winter - J" },
+        { "$TypeId": 9, "Id": "310dad151aa54e5f845e37e6c67545f8", "Name": "Winter - Q" },
+        { "$TypeId": 9, "Id": "fbcce4451890480f8389043c4ab6e3db", "Name": "Winter - K" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "0c21e358ec024407a8a0622d538ab320",
+    "Name": "Winter - A",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Context": "Your community becomes obsessed with a particular Taboo from the occupation. Which one? Why? Choose one:",
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A human emissary arrives at the settlement,\r\nproposing trade. How does the community react?\r\nAgree on Something about this person.",
+                    "A human soldier is captured nearby the community with\r\nmaps and other tools of reconnaissance. Start a Project\r\nbased on the community’s reaction."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "93546c75cc9049ac962fb80fec4e540e",
+    "Name": "Winter - 2",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A headstrong monster decides to lead a raiding party to\r\ntake resources from a nearby human settlement. One\r\nproject fails due to lack of monsters willing to work on it.",
+                    "A headstrong monster insists that all the members\r\nof the community be trained to fight off the humans.\r\nNo project dice are reduced this week."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "b0a99cc1aa0e4226ad7c0e3d2ed6b14d",
+                "Name": "Two",
+                "Value": 2
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "5ba6528e82dd42eea231f455b722f993",
+    "Name": "Winter - 3",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A monster calls for peace with the humans. Agree on\r\nSomething about why this is a good or bad idea.",
+                    "A monster calls for a second war with the humans.\r\nUncover Something Old on the map that will enhance\r\nor impede a war effort."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "13e8e2aac368457ca1e4cbd74d61b8f5",
+                "Name": "Three",
+                "Value": 3
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "421f04137b754984933c4745f4060615",
+    "Name": "Winter - 4",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "All the animals and the most attuned monsters are crying\r\nand won’t stop. Agree on Something about either the\r\ncause or cure for this situation.",
+                    "A great atrocity is revealed from the time of occupation.\r\nWhat is it? Who uncovers it?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "34a2170ccc124dd6b89d55ae478a5e2e",
+                "Name": "Four",
+                "Value": 4
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "b6c89a8fe1a349e69ae2c2e1c8803edf",
+    "Name": "Winter - 5",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "One of you begins to manifest new human qualities.\r\nWhat are they?",
+                    "One of you begins to manifest new monstrous qualities.\r\nWhat are they?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "dc52a1e46c4e4bcf9f0bbc035946a745",
+                "Name": "Five",
+                "Value": 5
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "81062c6b9d914e53a20521b728aea9de",
+    "Name": "Winter - 6",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "What is winter like in this area? What is the most\r\ncommon reaction to this weather?",
+                    "One of the monsters enters hibernation or\r\nmetamorphosis. How must the community scramble to\r\nmake up for their absence?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "a5f45d1c3d934d6b8e42d6d16c531cc9",
+                "Name": "Six",
+                "Value": 6
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "ba8a1624f32e4481927e72a4a923d087",
+    "Name": "Winter - 7",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A grand funeral is held in the community. Who or what\r\nwas it for? What legacy is enshrined through this ritual?",
+                    "Someone begins to construct a place to nurture young\r\nmonsters. Start a Project to reflect their endeavor."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "7d07ba85270141c399c4594fedf0d6e0",
+                "Name": "Seven",
+                "Value": 7
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "5ab3017054df477a8d2dc5f24f58c95e",
+    "Name": "Winter - 8",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "The largest monster among you takes charge of a project.\r\nRadically change its nature (don’t modify the project die).\r\nWhen it resolves, tell the community how it went.",
+                    "A human relic awakens, frightening the monsters who\r\nlive near it. What is it? Add a new Taboo."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "df750ad082504b0ca70800b54e847d11",
+                "Name": "Eight",
+                "Value": 8
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "b4528a911ef54625b21b4c8d7e771cdc",
+    "Name": "Winter - 9",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Context": "Disease spreads through the community. Choose one:",
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "You spend the week purging the disease. Project dice are not reduced this week.",
+                    "You re-purpose some human technology to temporarily manage the symptoms. Add an Adoption."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "2bfc4dd4a6d540008f6383fbfc940992",
+                "Name": "Nine",
+                "Value": 9
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "e7d6570cac684937b7088a98502463b6",
+    "Name": "Winter - 10",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Context": "A monster goes missing in the winter elements. The community organizes\r\nconstant search parties and eventually the monster is found. Choose one:",
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "All that is found is a body, clearly murdered by human weapons.",
+                    "The monster is found unharmed, clearly saved by human kindness."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "a5824d55628342d4be9f3f27ece8dea3",
+                "Name": "Ten",
+                "Value": 10
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "7ceda7037b2f4b11a70b0e6d586f3804",
+    "Name": "Winter - J",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "In preparation for the coming year, the community begins a huge undertaking.\r\nStart a project that will take at least 5 weeks to complete."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "c44cf81958aa40f0be8d212a67705f85",
+                "Name": "Jack",
+                "Value": 11
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "310dad151aa54e5f845e37e6c67545f8",
+    "Name": "Winter - Q",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A festive ritual reveals a good omen. What is the ritual? What is the omen?"
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "7d7bfeef809a48e3ac8f77923f41bf0e",
+                "Name": "Queen",
+                "Value": 12
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "fbcce4451890480f8389043c4ab6e3db",
+    "Name": "Winter - K",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "The heroes arrive. The game is over."
+                ]
+            },
+            "Season": {
+                "$TypeId": 8,
+                "Type": { "Id": "af9e579d7d964f9cb429f421e0af5668", "Name": "Season" },
+                "Id": "34979a5077f645378005bd8caa3c86ba",
+                "Name": "Winter",
+                "Value": 3
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "dd92d7dde819400bad6c1c0057b748c0",
+                "Name": "King",
+                "Value": 13
+            }
+        }
+    }]
+}]

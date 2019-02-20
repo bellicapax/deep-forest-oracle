@@ -8,38 +8,38 @@
         {
             "Key": "tsconfig",
             "Description": "Time taken to read and parse the given tsconfig.json file",
-            "Duration": 51,
+            "Duration": 162,
             "Steps": 1
         },
         {
             "Key": "checksum",
             "Description": "Time taken to compute the MD5 of all inputs",
-            "Duration": 128,
+            "Duration": 195,
             "Steps": 1
         },
         {
             "Key": "compile",
             "Description": "Time taken to compile the TypeScript program",
-            "Duration": 435,
+            "Duration": 711,
             "Steps": 9
         },
         {
             "Key": "emit",
             "Description": "Time taken to generate and write the JavaScript output",
-            "Duration": 22,
+            "Duration": 23,
             "Steps": 2
         },
         {
             "Key": "metadata",
             "Description": "Time taken to reflect Tiny metadata from the compiled program",
-            "Duration": 1,
+            "Duration": 2,
             "Steps": 0
         }
     ],
     "SourceFiles": [
-        "C:/Users/Funomena-User/Documents/Unity/Oracle/Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
-        "C:/Users/Funomena-User/Documents/Unity/Oracle/Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
+        "C:/Users/erisk/GitProjects/Unity/deep-forest-oracle/Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
+        "C:/Users/erisk/GitProjects/Unity/deep-forest-oracle/Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
     ],
-    "InputHash": "7a12615a6b3be6eff8488ca5f5aee37c",
-    "GeneratedAt": "Fri Feb 15 2019 16:06:03 GMT-0800 (Pacific Standard Time)"
+    "InputHash": "1f8472ca3e282502902fa25b1365f541",
+    "GeneratedAt": "Tue Feb 19 2019 21:31:47 GMT-0800 (Pacific Standard Time)"
 }

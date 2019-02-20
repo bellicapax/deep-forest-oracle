@@ -2,7 +2,7 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "skipLibCheck": true,
-        "outFile": "C:/Users/Funomena-User/Documents/Unity/Oracle/TinyExport/Oracle/html5/development/artifacts/scripts/tsc-emit.js",
+        "outFile": "C:/Users/erisk/GitProjects/Unity/deep-forest-oracle/TinyExport/Oracle/html5/development/artifacts/scripts/tsc-emit.js",
         "sourceMap": true,
         "target": "ES5"
     },

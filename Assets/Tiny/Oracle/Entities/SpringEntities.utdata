@@ -1,0 +1,383 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "d8e513e5440b4f88a8273ed224c2f51e",
+    "Name": "SpringEntities",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "92d0fc210eb1425ba270e4c2c0c6cbd1", "Name": "Spring - A" },
+        { "$TypeId": 9, "Id": "891e9846b9ed4415a1cdd967fc421410", "Name": "Spring - 2" },
+        { "$TypeId": 9, "Id": "da3e8c1964514881a2c1bb6e1982610e", "Name": "Spring - 3" },
+        { "$TypeId": 9, "Id": "a16433e91da8417382d59b44aed96212", "Name": "Spring - 4" },
+        { "$TypeId": 9, "Id": "14e75510789a4489ab2b13ab40b24567", "Name": "Spring - 5" },
+        { "$TypeId": 9, "Id": "6c365d270b524f768359cc3eb88d04db", "Name": "Spring - 6" },
+        { "$TypeId": 9, "Id": "9793393d5b5848c287fa80b55fbdb1fa", "Name": "Spring - 7" },
+        { "$TypeId": 9, "Id": "02459db469b84992a2c40b546baeb0b4", "Name": "Spring - 8" },
+        { "$TypeId": 9, "Id": "66c48c7c8e8f4d1ca4453012a4b9602c", "Name": "Spring - 9" },
+        { "$TypeId": 9, "Id": "e98acd981a8c456cbe3bc97f4ad1a7d1", "Name": "Spring - 10" },
+        { "$TypeId": 9, "Id": "f7e00b46dd504b50b4865e1315cf961e", "Name": "Spring - J" },
+        { "$TypeId": 9, "Id": "a50beb7efacc429e8599ab8a2ff922da", "Name": "Spring - Q" },
+        { "$TypeId": 9, "Id": "74701cce6f0d4aef8b3a91c67132c7c8", "Name": "Spring - K" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "92d0fc210eb1425ba270e4c2c0c6cbd1",
+    "Name": "Spring - A",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "The occupation left you all forever altered. Agree on\r\nSomething about how the humans changed you.",
+                    "One of you begins to manifest new monstrous qualities.\r\nWhat are they?"
+                ]
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "891e9846b9ed4415a1cdd967fc421410",
+    "Name": "Spring - 2",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "What cultural practice or ritual unifies your community?",
+                    "There is a monster who did not join with you in driving\r\noff the humans. Where are they on the map?\r\nWhat makes them different?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "b0a99cc1aa0e4226ad7c0e3d2ed6b14d",
+                "Name": "Two",
+                "Value": 2
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "da3e8c1964514881a2c1bb6e1982610e",
+    "Name": "Spring - 3",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Someone discovers a trove of ritual items hidden from the\r\nhumans. What are they? Add them to the map.",
+                    "An old language resurfaces among you, a tongue\r\nyou have not heard for ages. Why was it silenced?\r\nWhy has it returned?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "13e8e2aac368457ca1e4cbd74d61b8f5",
+                "Name": "Three",
+                "Value": 3
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "a16433e91da8417382d59b44aed96212",
+    "Name": "Spring - 4",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A powerful tool of the humans is found nearby the\r\nsettlement. How is it destroyed? What does it cost you?",
+                    "A powerful tool of the humans is found nearby\r\nthe settlement. How is it co-opted?\r\nWhat pleasures does it offer?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "34a2170ccc124dd6b89d55ae478a5e2e",
+                "Name": "Four",
+                "Value": 4
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "14e75510789a4489ab2b13ab40b24567",
+    "Name": "Spring - 5",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Two or more of the monsters who live here decide to\r\ncommit themselves to each other. Who performs the\r\nrituals for the union?",
+                    "A younger monster is brought to adulthood through an\r\nancient ceremony. Who performs the rites required for\r\nthe transition?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "dc52a1e46c4e4bcf9f0bbc035946a745",
+                "Name": "Five",
+                "Value": 5
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "6c365d270b524f768359cc3eb88d04db",
+    "Name": "Spring - 6",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "You see a good omen. What is it?",
+                    "You see a bad omen. What is it?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "a5f45d1c3d934d6b8e42d6d16c531cc9",
+                "Name": "Six",
+                "Value": 6
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "9793393d5b5848c287fa80b55fbdb1fa",
+    "Name": "Spring - 7",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "There’s a large body of water on the map. Where is it?\r\nWhat does it look like?",
+                    "There’s a place on the map that has been desecrated.\r\nWhere is it? How might it be restored?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "7d07ba85270141c399c4594fedf0d6e0",
+                "Name": "Seven",
+                "Value": 7
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "02459db469b84992a2c40b546baeb0b4",
+    "Name": "Spring - 8",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "How is status earned and defended in this community?\r\nIs there a clear hierarchy among monsters here?",
+                    "Beyond spoken words, how do monsters here\r\ncommunicate?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "df750ad082504b0ca70800b54e847d11",
+                "Name": "Eight",
+                "Value": 8
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "66c48c7c8e8f4d1ca4453012a4b9602c",
+    "Name": "Spring - 9",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "One of you is still recovering from serious wounds\r\ninflicted by the humans. Who?\r\nWhat are the nature of these wounds?",
+                    "Two of the community’s smallest members get into a\r\nfight. What provoked them? Are either seriously hurt?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "2bfc4dd4a6d540008f6383fbfc940992",
+                "Name": "Nine",
+                "Value": 9
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "e98acd981a8c456cbe3bc97f4ad1a7d1",
+    "Name": "Spring - 10",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "How varied are the diets within the community? Which\r\nmonster has the most unsettling or untenable diet?",
+                    "What materials are needed to upkeep and maintain the\r\nlairs within the community? Are any of those materials\r\ndifficult to get or hard to find?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "a5824d55628342d4be9f3f27ece8dea3",
+                "Name": "Ten",
+                "Value": 10
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "f7e00b46dd504b50b4865e1315cf961e",
+    "Name": "Spring - J",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "It is unusual that monsters form communities. Agree on\r\nSomething about why this community exists.",
+                    "Monsters have always lived in communities. Agree on\r\nSomething about the nature of monster communities."
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "c44cf81958aa40f0be8d212a67705f85",
+                "Name": "Jack",
+                "Value": 11
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "a50beb7efacc429e8599ab8a2ff922da",
+    "Name": "Spring - Q",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "Some of the monsters here have traveled a great distance\r\nto join the community. What drew them here?\r\nWhere did they leave?",
+                    "All of the monsters here have lived in this region for\r\ncenturies. What originally drew them to this area?"
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "7d7bfeef809a48e3ac8f77923f41bf0e",
+                "Name": "Queen",
+                "Value": 12
+            }
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "74701cce6f0d4aef8b3a91c67132c7c8",
+    "Name": "Spring - K",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "ad3036a888d14380adaab874525d90d2", "Name": "Card" },
+        "Properties": {
+            "Choices": {
+                "Type": { "Id": "1bff5adddd7c41de98d3329c7c641208", "Name": "String" },
+                "Items": [
+                    "A ritual from the human occupiers has been adopted by some of the monsters here. What is it? Agree on Something about\r\nwhy this ritual is vital to retain and preserve as your own. Add the ritual to your Adoptions."
+                ]
+            },
+            "Value": {
+                "$TypeId": 8,
+                "Type": { "Id": "e53c3f7a05974f479902f412029bd523", "Name": "FaceValue" },
+                "Id": "dd92d7dde819400bad6c1c0057b748c0",
+                "Name": "King",
+                "Value": 13
+            }
+        }
+    }]
+}]
